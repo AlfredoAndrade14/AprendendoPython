@@ -1,0 +1,30 @@
+n = 1
+while  n !=0: 
+ a = int (input('Digite um número:'))
+ b = int (input('Digite outro número:'))
+ print ('Bem vindo ao MENU')
+ print ('1 - SOMAR') 
+ print ('2 - MULTIPLICAR')
+ print ('3 - MAIOR NÚMERO ')
+ print ('4 - NOVOS NÚMEROS')
+ print ('5 - SAIR DO PROGRAMA')
+
+ c = int (input('Digite um número relacionado ao nosso menu'))
+
+
+ if c == 1:
+  print ('A soma é', a + b)
+ if c ==2: 
+  print ('A multiplicação dos números é', a *b)
+ if c ==3: 
+    if a > b: 
+     print ('{} é maior que {}'.format(a,b))
+    else: 
+     print ('{} é maior que {}'.format(b,a))
+ if c ==4: 
+   
+    print ('Digite novos números')
+    
+ if c ==5: 
+   print ('fim do programa')
+   break

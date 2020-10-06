@@ -1,0 +1,10 @@
+#par ou ímpar
+
+n = int(input('insira um número: ')) 
+r = n % 2 
+
+if r == 0:
+  print ('número par')
+
+else:
+  print ('número ímpar') 

@@ -1,0 +1,14 @@
+n = 1
+c = 0
+s = 0
+print ('----------------------------BEM VINDO AO PROGRAMA DE SOMA --------------------------------------')
+while n != 0: 
+ a = int (input('Digite um número qualquer para receber a soma dele e para encerrar o programa digite 999'))
+ c += 1
+ s += a 
+ 
+ if a ==999: 
+   print ('Programa encerrou!')
+    
+   print ('O número de valores digitados foi {} e a soma foi {}'.format(c,s-999))
+   break 

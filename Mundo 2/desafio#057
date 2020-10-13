@@ -1,0 +1,17 @@
+n = 1 
+while n != 0: 
+  a = str (input('Digite o seu sexo [F|M]')).strip().upper()[0]
+  if a == 'M': 
+      print ('sexo masculino registrado com sucesso!')
+  if a == 'F': 
+      print ('sexo feminino registrado com sucesso')
+  else:
+    while n != 0:
+     b = str (input('Dados inválidos! Digite seu sexo novamente:')).strip().upper()[0]
+     if b == 'M': 
+       print ('Sexo masculino registrado com sucesso!')
+       break
+     if b == 'F': 
+       print ('Sexo feminino registrado com sucesso!')
+       break
+  break

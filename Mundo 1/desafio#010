@@ -1,0 +1,5 @@
+print ('Vamos ver quanto você tem em dólar?')
+r = float (input('Digite quanto você tem em real:R$'))
+print ('Considere dólar =  US$5,58')
+d = r/5.58 
+print ('Você tem em R${}, convertido em dólar fica  US${}'.format(r, d))

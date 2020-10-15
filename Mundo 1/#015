@@ -1,0 +1,4 @@
+k = float (input('Digite o valor que andou em KM:'))
+d = float (input('Digite a quantidade de dias:'))
+valor = (k*0.60) + (d*60)
+print ('O valor deu {}'.format(valor))

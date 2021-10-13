@@ -1,0 +1,10 @@
+numero = int(input("Numero: "))
+primo = True
+for c in range(1, numero):
+  if(numero % c == 0 and c != 1 and c != 2):
+    primo = False
+    break
+if primo:
+  print("Número é primo")
+else:
+  print("Número não é primo")

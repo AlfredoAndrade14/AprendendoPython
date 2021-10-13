@@ -8,3 +8,4 @@ while True:
   soma += num
 print("""total de tentativas: {}
 soma dos números: {}""".format(total, soma) )
+ 
